@@ -13,7 +13,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		
 		//测试用
-		System.out.println("hello world");
+		//System.out.println("hello world");
 	}
 
 }
