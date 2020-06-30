@@ -14,7 +14,7 @@ public class Application {
 		
 		//测试用
 		System.out.println("hello ");
-		System.out.println(" world");
+		//System.out.println(" world");
 	}
 
 }
