@@ -11,7 +11,10 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 		
-		//测试用
+
+		System.out.println("hello ");
+		System.out.println(" world");
+
 		System.out.println("hello ");
 		System.out.println(" world");
 	}
