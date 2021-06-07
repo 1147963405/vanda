@@ -35,5 +35,15 @@ public class NbController {
 
             return  "测试成功";
         }
+		
+		 @RequestMapping(value = "/insert",method = RequestMethod.GET)
+        public String insert3(Model m){
+
+            Map<String,Object> map=new HashMap<>();
+            map.put("001","张三");
+            m.addAllAttributes(map);
+
+            return  "测试成功";
+        }
 
 }
